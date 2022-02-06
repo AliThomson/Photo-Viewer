@@ -1,0 +1,31 @@
+div.thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    width: 80vw;
+}
+
+img.thumbnails {
+    pointer-events: all;
+    width: calc(80vw/6);
+    height: calc(80vh/6);
+    border-radius: 5px;
+    margin: 2px;
+    
+}
+img.selected {
+    pointer-events: all;
+    width: calc(80vw/6);
+    height: calc(80vh/6);
+    border-radius: 5px;
+    margin: 2px;
+    border:deeppink;
+    border-style: solid;
+}
+
+button.thumbnails {
+    background: none;
+    border: none;
+}

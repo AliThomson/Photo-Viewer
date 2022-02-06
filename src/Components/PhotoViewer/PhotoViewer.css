@@ -1,0 +1,26 @@
+/* Cross-Component Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
+    align-content: center; 
+}
+h2 {
+    font-size: 1.5em;
+}
+.selected-photo {
+    width: 50vw;
+    margin: auto;
+}
+.photo-viewer {
+   display: flex; 
+}
+
+
+
+ /* Image */
+.random-img {
+    align-content: center;
+}
